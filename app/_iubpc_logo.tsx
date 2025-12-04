@@ -16,16 +16,16 @@ const logoPaths = [
     }
 ]
 
-function IUBPCLogo({className}:React.SVGProps<SVGSVGElement>) {
+function IUBPCLogo({ className }: React.SVGProps<SVGSVGElement>) {
     return (
         <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 500 500"
-           className={className}
+            className={className}
         >
             <path
-              
+
                 key={logoPaths[0].id}
                 d={logoPaths[0].d}
                 fill={logoPaths[0].fill}
@@ -37,11 +37,11 @@ function IUBPCLogo({className}:React.SVGProps<SVGSVGElement>) {
                 fill='none'
             />
             <path
-              className="iubpc-svg-2"
+                className="iubpc-svg-2"
                 key={logoPaths[2].id}
                 d={logoPaths[2].d}
                 fill='none'
-                
+
             />
 
         </svg>
