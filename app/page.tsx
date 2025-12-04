@@ -24,7 +24,6 @@ export default function Home() {
       <div className="h-screen w-fit text-center flex flex-col justify-center items-center ">
         <div className="flex  items-center justify-center">
           <LayoutTextFlip
-
             text={`Welcome to \u00a0`}
             words={["IUBPC", "Programming Club", "Coders"]}
           />
