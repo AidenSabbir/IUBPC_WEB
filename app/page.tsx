@@ -1,7 +1,7 @@
 import { roboto } from "@/lib/font";
 import _Iubpc from "./_Iubpc";
 import _iubpc_logo from "./_iubpc_logo";
-import { Ripple } from "@/components/Ripple";
+import { Ripple } from "@/components/ui/Ripple";
 import { Meteors } from "@/components/ui/Metteors";
 export default function Home() {
 
