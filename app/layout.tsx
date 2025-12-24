@@ -13,15 +13,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
- 
+
   return (
     <html lang="en">
       <body className={inter.className}>
         <div className="fixed top-0 left-1/2 -translate-x-1/2 w-fit flex justify-center items-center z-99999">
-        <Nav_Bar />
+          <Nav_Bar />
         </div>
-         <SplashScreenWrapper>
-        {children}
+        <SplashScreenWrapper>
+          {children}
         </SplashScreenWrapper>
       </body>
     </html>

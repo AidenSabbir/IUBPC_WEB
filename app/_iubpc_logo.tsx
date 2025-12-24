@@ -25,23 +25,19 @@ function IUBPCLogo({ className }: React.SVGProps<SVGSVGElement>) {
             className={className}
         >
             <path
-
                 key={logoPaths[0].id}
                 d={logoPaths[0].d}
                 fill={logoPaths[0].fill}
             />
             <path
-                className="iubpc-svg-2"
                 key={logoPaths[1].id}
                 d={logoPaths[1].d}
-                fill='none'
+                fill={logoPaths[1].fill}
             />
             <path
-                className="iubpc-svg-2"
                 key={logoPaths[2].id}
                 d={logoPaths[2].d}
-                fill='none'
-
+                fill={logoPaths[1].fill}
             />
 
         </svg>
