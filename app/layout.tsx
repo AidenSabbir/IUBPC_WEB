@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en">
+    <html lang="en" data-theme="dark">
       <body className={inter.className}>
         <div className="fixed top-0 left-1/2 -translate-x-1/2 w-fit flex justify-center items-center z-99999">
           <Nav_Bar />

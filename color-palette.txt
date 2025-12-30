@@ -1,0 +1,63 @@
+IUBPC Color Palette (HSL Values)
+=================================
+
+PRIMARY COLORS
+--------------
+Primary:              hsl(250, 85%, 70%)    // Purple - main brand color
+Primary Foreground:   hsl(220, 20%, 6%)     // Dark text on primary
+
+Secondary:            hsl(152, 75%, 55%)    // Green - accent color
+Secondary Foreground: hsl(220, 20%, 6%)     // Dark text on secondary
+
+
+BACKGROUND COLORS
+-----------------
+Background:           hsl(220, 20%, 6%)     // Main page background
+Card:                 hsl(220, 18%, 10%)    // Card/container background
+Muted:                hsl(220, 15%, 15%)    // Muted backgrounds
+Code Background:      hsl(220, 18%, 12%)    // Code block background
+
+
+TEXT COLORS
+-----------
+Foreground:           hsl(210, 40%, 98%)    // Main text (near white)
+Muted Foreground:     hsl(215, 20%, 65%)    // Secondary/muted text
+Card Foreground:      hsl(210, 40%, 98%)    // Text on cards
+
+
+BORDER & INPUT
+--------------
+Border:               hsl(220, 15%, 20%)    // Borders
+Input:                hsl(220, 15%, 20%)    // Input borders
+Ring:                 hsl(250, 85%, 70%)    // Focus rings
+Code Border:          hsl(220, 15%, 25%)    // Code block borders
+
+
+ACCENT & STATES
+---------------
+Accent:               hsl(250, 85%, 70%)    // Accent (same as primary)
+Accent Foreground:    hsl(220, 20%, 6%)     // Text on accent
+Destructive:          hsl(0, 84.2%, 60.2%)  // Error/destructive actions
+Destructive Foreground: hsl(210, 40%, 98%)  // Text on destructive
+
+
+GRADIENTS
+---------
+Gradient Primary:     hsl(250, 85%, 70%) → hsl(280, 80%, 65%)   // Purple to violet
+Gradient Secondary:   hsl(152, 75%, 55%) → hsl(170, 70%, 50%)   // Green to teal
+Gradient Hero:        hsl(220, 20%, 6%) → hsl(220, 25%, 8%) → hsl(220, 20%, 6%)
+
+
+GLOW EFFECTS
+------------
+Glow Primary:         0 0 30px hsl(250, 85%, 70%, 0.4)
+Glow Secondary:       0 0 30px hsl(152, 75%, 55%, 0.4)
+
+
+SIDEBAR (if used)
+-----------------
+Sidebar Background:   hsl(220, 18%, 10%)
+Sidebar Foreground:   hsl(210, 40%, 98%)
+Sidebar Primary:      hsl(250, 85%, 70%)
+Sidebar Accent:       hsl(220, 15%, 15%)
+Sidebar Border:       hsl(220, 15%, 20%)
