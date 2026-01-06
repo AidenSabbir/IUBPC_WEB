@@ -31,8 +31,8 @@ export default function SplashScreenWrapper({ children }: SplashScreenWrapperPro
         {Array.from({ length: 9 }).map((_, i) => (
           <div
             key={i}
-            className="splash-loader w-1 h-1 rounded-full"
-            style={{ backgroundColor: "white", animationDelay: `${i * 323}ms`, animationDuration: "1s", animationIterationCount: "infinite", animationTimingFunction: "ease-in-out", animationName: "splash" }}
+            className="w-1 h-1 rounded-full"
+            style={{ backgroundColor: "white", animationDelay: `${i * 342}ms`, animationDuration: "1s", animationIterationCount: "infinite", animationTimingFunction: "ease-in", animationName: "splash" }}
           />
         ))}
       </div>
